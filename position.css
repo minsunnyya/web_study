@@ -1,0 +1,31 @@
+.static_position {
+    position:static;
+    border: 5px solid salmon;
+}
+.relative_position {
+    position: relative;
+    border: 5px solid slateblue;
+    left: 30px;
+}
+.relative_position_2 {
+    position: relative;
+    border: 5px solid forestgreen;
+    width: 500px;
+    height: 200px;
+}
+.absolute_position_2 {
+    position: absolute;
+    border: 5px solid darkcyan;
+    width:200px;
+    height: 100px;
+    top:50px;
+    right: 0;
+}
+.absolute_position_2.color{
+    position: absolute;
+    border: 5px solid rgb(139, 44, 0);
+    width:200px;
+    height: 100px;
+    top:50px;
+    right: 0;  
+}
